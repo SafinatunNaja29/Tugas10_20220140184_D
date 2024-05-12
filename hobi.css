@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 222, 232)
+}
+
+.containerhobi {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(237, 170, 202);
+    border-radius: 25%; /* Mengatur sudut gambar */
+
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Card Styles */
+.card {
+    display: flex; /* Mengubah display menjadi flex untuk mengatur posisi elemen */
+    flex-direction: column; /* Menjadikan elemen sebagai kolom */
+    align-items: center; /* Mengatur elemen agar berada di tengah secara horizontal */
+    text-align: center; /* Mengatur teks menjadi di tengah */
+}
+
+
+.card img {
+    width: 300px; /* Menyesuaikan lebar gambar */
+    height: auto;
+    object-fit: cover;
+    border-radius: 40%; /* Mengatur sudut gambar */
+    margin-right: 20px; /* Memberikan jarak antara gambar dan teks */
+
+}
+
+.card-idhobi {
+    text-align: center; 
+    background-color: rgb(245, 222, 232);
+    border-radius: 25%; /* Mengatur sudut gambar */
+    padding: 20px; /* Menambahkan padding agar konten lebih lega */
+}
+
+
+.card-id h2,
+.card-id h3 {
+    margin-bottom: 10px;
+}
+
+.id-info {
+    margin-bottom: 20px;
+}
+
+.id-info p {
+    margin-bottom: 5px;
+}
+
+.signature-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.signature-container p {
+    font-style: italic;
+}
+
+.signature-container img {
+    width: 50px;
+    height: 50px;
+}
+
+.id-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+    }
+}
